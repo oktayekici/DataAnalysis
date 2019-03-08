@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+l#!/usr/bin/env python
 # coding: utf-8
 
 # In[1]:
@@ -71,7 +71,7 @@ dosyanumlist = str(dosyanumlist)
 server = smtplib.SMTP('smtp.gmail.com:587')
 server.ehlo()
 server.starttls()
-server.login('develoktay','!Oktay48?') #kullanici, sifre
+server.login('e-mail','sifre') #kullanici, sifre
 msg = "\r\n".join([
   "From: develoktay@gmail.com",
   "To: oktayekici@me.com",
